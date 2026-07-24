@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -44,6 +44,14 @@ export default function Footer() {
               className="p-2 bg-white/10 rounded-full hover:bg-accent transition-all"
             >
               <FaTwitter size="18" />
+            </a>
+            <a
+              href="https://www.facebook.com/ashik.aryan.52"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 bg-white/10 rounded-full hover:bg-accent transition-all"
+            >
+              <FaFacebookF size="18" />
             </a>
           </div>
         </div>

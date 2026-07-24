@@ -7,6 +7,9 @@ export const metadata = {
   title: "Ashikur Rahman | Full Stack Developer",
   description:
     "Portfolio of Ashikur Rahman — a Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
+  icons: {
+    icon: "/projects/images/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -69,7 +69,7 @@ export default function Navbar() {
           href="/"
           className="text-xl font-bold text-accent transition-colors"
         >
-          Ashikur
+          Ashik
         </Link>
 
         <div className="hidden md:flex items-center gap-8">

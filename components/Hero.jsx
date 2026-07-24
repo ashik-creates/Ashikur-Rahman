@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FiDownload, FiMail } from "react-icons/fi";
-import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaFacebookF } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -105,6 +105,14 @@ export default function Hero() {
                 className="p-3 bg-surface rounded-full shadow-md text-text hover:text-accent hover:shadow-lg transition-all"
               >
                 <FaTwitter size="22" />
+              </a>
+              <a
+                href="https://www.facebook.com/ashik.aryan.52"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-surface rounded-full shadow-md text-text hover:text-accent hover:shadow-lg transition-all"
+              >
+                <FaFacebookF size="22" />
               </a>
             </motion.div>
           </div>
