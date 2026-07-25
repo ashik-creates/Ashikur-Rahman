@@ -11,9 +11,9 @@ export default function Hero() {
       id="home"
       className="min-h-screen flex items-center relative overflow-hidden pt-16 sm:pt-20"
     >
-      <div className="absolute top-20 left-10 w-72 h-72 bg-accent/15 rounded-full blur-3xl max-w-[50vw] max-h-[50vw]" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl max-w-[60vw] max-h-[60vw]" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/5 rounded-full blur-[120px] max-w-[80vw] max-h-[80vw]" />
+      <div className="absolute top-20 left-10 w-72 h-72 bg-accent/15 rounded-full blur-3xl max-w-[50vw] max-h-[50vw] hidden sm:block" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl max-w-[60vw] max-h-[60vw] hidden sm:block" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/5 rounded-full blur-[120px] max-w-[80vw] max-h-[80vw] hidden sm:block" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
